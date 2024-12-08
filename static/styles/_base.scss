@@ -1,0 +1,78 @@
+$background-color: #D9C7B4;
+$payment-container-color: #ECE3DA;
+$text-color: rgb(255, 255, 255);
+$static-bar-color: blue;
+$payment-checkout-container-color:#E7DBCF;
+@mixin mq($size) {
+    @media only screen and (min-width: $size) {
+        @content;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+option:hover {
+    background-color: #e7d6c3;
+}
+
+option:active {
+    background-color: #e7d6c3
+}
+
+option:checked {
+    box-shadow: 0 0 10px 100px #e8cfb5 inset;
+    color: black;
+}
+
+option {
+    color: black;
+    border-radius: 50px;
+    padding: 10px;
+    margin:5px;
+}
+
+option:focus {
+    background-color: #ECE3DA
+}
+
+::selection {
+    background-color: rgb(218, 187, 152)
+}
+
+html, body {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: $text-color;
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 5px;
+    background-color: $background-color;
+    height: 100vh;
+}
+
+.paymentMethods {
+    display: inline;
+    padding: 10px;
+    width: 90px;
+}
+
+section {
+    margin: 1%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    @include mq(950px) {
+        display:flex;
+        // margin-left: 5%;
+        // margin-right: 5%;
+    }
+    // @include mq(1080px) {
+    //     margin-left: 8%;
+    //     margin-right: 8%;
+    // }  
+}
