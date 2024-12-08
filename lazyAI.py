@@ -1,6 +1,6 @@
 import google.generativeai as genai
 import random
-genai.configure(api_key="AIzaSyDmVB_e_dw_jr895lRd6z063sw78qQgIYQ")
+genai.configure(api_key="")
 class ChatSession:
     def __init__(self):
 
