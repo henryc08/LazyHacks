@@ -1,8 +1,10 @@
-# TALK 2 ME 🎙️🖊️🔥
+# TALK 2 ME 🎙️🖊️🔥 
 
 Way to LAZY to get up and type? Well, you're in luck, because **Talk 2 Me (T2M)** is your AI-powered writing assistant designed to make typing obsolete! Simply speak your thoughts, and T2M transforms them into beautiful writing that can be used in professional and educational situations!!!
 
 Whether you’re brainstorming, completing assignments, or just jotting down ideas, T2M makes it effortless. Chat with your AI, switch between conversations, and refine your writing—all through an intuitive interface. 
+
+**IMPORTANT: To begin recording, simply say "I'm feeling lazy", to end the recording, say "I'm tired".**
 
 ---
 
@@ -18,7 +20,7 @@ To make this dream a reality, we leveraged AI to create a "lazy" but highly effe
 
 **Talk 2 Me (T2M)** is an AI-powered tool designed to take informal and unorganized speech and transform it into beautifully written, sophisticated paragraphs. Here’s how it works:
 
-1. **Speech-to-Text 🎙️➡️📜:** T2M uses Python's speech recognition library to convert your voice into a text prompt.
+1. **Automated Speech-to-Text 🎙️➡️📜:** T2M listens in the background for "I'm feeling lazy" to begin recording, then uses Python's speech recognition library to convert your voice into a text prompt. The end phrase is "I'm tired". 
 2. **AI Processing 🤖:** The text is sent to the Gemini AI API, which generates polished responses.
 3. **Chat Interface 💬:** The responses are displayed in a chat-styled UI. Each chat session is stored, enabling you to switch between different conversations seamlessly.
 4. **Keyboard Integration ⌨️:** You can also input text manually, prompting the AI to critique and refine paragraphs further.
@@ -88,11 +90,12 @@ To make this dream a reality, we leveraged AI to create a "lazy" but highly effe
 
 4. **Serve the Frontend**:
 
-Open the locaol server in your web browser to view the interface.
+Open the local server in your web browser to view the interface.
 
 5. **Start Talking**:
 
 Use your microphone to speak and watch your thoughts transform into polished paragraphs in real-time.
+**IMPORTANT: To begin recording, simply say "I'm feeling lazy", to end the recording, say "I'm tired".**
 
 ---
 
