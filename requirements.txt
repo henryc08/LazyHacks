@@ -1,0 +1,5 @@
+# Python Dependencies for Talk 2 Me (T2M)"
+
+speechrecognition==3.8.1
+flask==2.3.2
+google-generativeai==0.2.0  
