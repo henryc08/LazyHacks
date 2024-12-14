@@ -1,5 +1,4 @@
 import google.generativeai as genai
-import random
 genai.configure(api_key="")
 class ChatSession:
     def __init__(self):
